@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ImgSection2 from "../image/image__section2.png";
 import CouponBtn from './CouponBtn';
+import NoticeArea from './Notice';
 
 const Box = styled.div`
 	background-color: #f1f1f1;
@@ -29,6 +30,7 @@ function Section2(){
 					</ul>
 				</TitleArea>
 				<CouponBtn />
+				<NoticeArea />
 			</Box>
 		</>
 	)

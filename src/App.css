@@ -6,40 +6,40 @@
 	display: block;
 	width: 240px;
 }
-.box__navigation--category .list .list-item .link {
+.box__navigation--category .list .list-item .button {
 	display: block;
 	width: 240px;
 	height: 70px;
 }
 
-.box__navigation--category .list .list-item1 .link {
+.box__navigation--category .list .list-item1 .button {
 	background-position: 0 -72px;
 }
 
-.box__navigation--category .list .list-item2 .link {
+.box__navigation--category .list .list-item2 .button {
 	background-position: -242px -72px;
 }
 
-.box__navigation--category .list .list-item3 .link {
+.box__navigation--category .list .list-item3 .button {
 	background-position: -484px -72px;
 }
 
-.box__navigation--category .list .list-item4 .link {
+.box__navigation--category .list .list-item4 .button {
 	background-position: -726px -72px;
 }
 
-.box__navigation--category .list .list-item1 .link.active {
+.box__navigation--category .list .list-item1 .button.active {
 	background-position: 0 0;
 }
 
-.box__navigation--category .list .list-item2 .link.active {
+.box__navigation--category .list .list-item2 .button.active {
 	background-position: -242px 0;
 }
 
-.box__navigation--category .list .list-item3 .link.active {
+.box__navigation--category .list .list-item3 .button.active {
 	background-position: -484px 0;
 }
 
-.box__navigation--category .list .list-item4 .link.active {
+.box__navigation--category .list .list-item4 .button.active {
 	background-position: -726px 0;
 }

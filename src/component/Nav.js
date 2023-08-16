@@ -13,36 +13,69 @@ const TabNav = styled.ul`
 	justify-content: center;
 `
 
-const ItemLink = styled(Link)`
+const ItemButton = styled.button`
 	display: block;
 	width: 240px;
 	height: 70px;
 `
 
 function Nav(props){
-	const navTit = ['할인혜택', '호텔 찾기', '즐길거리', '검색 가이드'];
+	const navTit = [{
+		id: 1,
+		name: '할인혜택',
+	},
+	{
+		id: 2,
+		name: '호텔 찾기',
+	},
+	{
+		id: 3,
+		name: '즐길거리',
+	},
+	{
+		id: 4,
+		name: '검색 가이드',
+	}];
 	let [NavActive, setNavActive] = useState(false);
-	const isActive = props.isActive;
+	
+	// const isActive = props.isActive;
+
+	const siblings = function(t){
+		let children = t.parentElement.children;
+		let arr = [];
+
+
+		for(let i=0;i < children.length; i++){
+			arr.push(children[i]);
+
+		}
+		arr.filter((e) => {
+			return e !== t;
+		})
+
+	}
+	console.log(NavActive);
 
 	const handleClick = (e) => {
-		// console.log(e.currentTarget)
+		siblings(e.currentTarget.parentElement)
+		// siblings(e.currentTarget.parentElement).forEach(element => {
+		// 	element.classList.remove("active");
+		// });
 		e.currentTarget.classList.add("active");
-		// e.currentTarget.parentElement.slbling.classList()
-		// if(NavActive){
-		// 	setNavActive(false)
-		// }else{
-		// 	setNavActive(true)
-		// }
-		// console.log(NavActive)
+		if(NavActive){
+			setNavActive(false)
+		}else{
+			setNavActive(true)
+		}
 	}
 	return(
 		<div className="box__navigation--category">
 			<TabNav className="list">
-				{navTit.map((item ,idx) => 
-					<li className={`list-item${idx + 1}`}>
-						<ItemLink to={`/0${idx+1}`} className="link sprite__expedia" key={idx} onClick={handleClick}>
-							<span className="for-a11y">{item}</span>
-						</ItemLink>
+				{navTit.map((item) => 
+					<li className={`list-item list-item${item.id}`} key={item.id}>
+						<ItemButton className="button sprite__expedia" onClick={handleClick}>
+							<span className="for-a11y">{item.name}</span>
+						</ItemButton>
 					</li>
 				)}
 			</TabNav>

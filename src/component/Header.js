@@ -19,6 +19,15 @@ const StyledSwiper = styled(Swiper)`
 	height: 595px;
 `
 
+const HeaderTxt = styled.div`
+	position: absolute;
+	top: 107px;
+	left: 50%;
+	width: 614px;
+	height: 376px;
+	transform: translateX(-50%);
+`
+
 const headerImgURL = [
 	require('../image/visual/image__header-slide1.jpg'),
 	require('../image/visual/image__header-slide2.jpg'),
@@ -45,11 +54,11 @@ function Header(){
 				>
 				{headerImgURL.map( (url, index) => <SwiperSlide key={index} src={url}></SwiperSlide>)}
 				</StyledSwiper>
-				<div className="box__header-visual">
+				<HeaderTxt className="box__header-visual">
 					<h1 className="for-a11y">익스피디아 입점기념</h1>
 					<p className="for-a11y">전 세계 호텔 최대 20만원 할인</p>
 					<p className="for-a11y">1월 2일 ~ 1월 15일</p>
-				</div>
+				</HeaderTxt>
 			</EventHeader>
 		</>
 	)
