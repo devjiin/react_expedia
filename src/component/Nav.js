@@ -62,11 +62,11 @@ function Nav(props){
 		// 	element.classList.remove("active");
 		// });
 		e.currentTarget.classList.add("active");
-		if(NavActive){
-			setNavActive(false)
-		}else{
-			setNavActive(true)
-		}
+		// if(NavActive){
+		// 	setNavActive(false)
+		// }else{
+		// 	setNavActive(true)
+		// }
 	}
 	return(
 		<div className="box__navigation--category">
