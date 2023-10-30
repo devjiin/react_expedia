@@ -10,7 +10,7 @@ const Btn = styled.button`
 `
 
 
-function CouponBtn(){
+function CouponBtn(props){
 	return(
 		<>
 			<Btn type="button" className="sprite__expedia"><span className="for-a11y">쿠폰받기</span></Btn>

@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { Autoplay, EffectFade } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ImgTitle from "../image/image__header-title.png";
 import 'swiper/css';
+import "swiper/css/effect-fade";
+import "swiper/css/autoplay";
 
 const EventHeader = styled.div`
 	position: relative;
@@ -17,15 +20,32 @@ const StyledSwiper = styled(Swiper)`
 	min-width: 1920px;
 	width: 100%;
 	height: 595px;
+	&:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #232323;
+		z-index: 1;
+		opacity:0.7;
+	}
 `
 
 const HeaderTxt = styled.div`
 	position: absolute;
 	top: 107px;
 	left: 50%;
+	z-index:2;
 	width: 614px;
 	height: 376px;
 	transform: translateX(-50%);
+	background: url(${ImgTitle}) no-repeat 0 0/contain;
+`
+
+const Image = styled.img`
+	width:100%;
 `
 
 const headerImgURL = [
@@ -44,15 +64,16 @@ const headerImgURL = [
 function Header(){
 	return(
 		<>
-			<EventHeader>
+			<EventHeader className="box__event--header">
 				<StyledSwiper 
 					loop={true}
+					speed= {800}
+					effect={'fade'}
 					autoplay={{delay: 3000}}
-					effect="fade"
 					modules={[EffectFade, Autoplay]}
 					className="box__header-swiper"
 				>
-				{headerImgURL.map( (url, index) => <SwiperSlide key={index} src={url}></SwiperSlide>)}
+				{headerImgURL.map( (url, index) => <SwiperSlide key={index}><Image src={url}></Image></SwiperSlide>)}
 				</StyledSwiper>
 				<HeaderTxt className="box__header-visual">
 					<h1 className="for-a11y">익스피디아 입점기념</h1>

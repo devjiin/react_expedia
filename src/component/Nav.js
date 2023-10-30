@@ -4,13 +4,15 @@ import styled from "styled-components";
 
 const TabNav = styled.ul`
 	display: flex;
-	position: fixed;
 	z-index: 100;
-	top: 72px;
 	width: 100%;
 	height: 70px;
 	background-color: #202843;
 	justify-content: center;
+	&.tab__navigation--fixed{
+		position: fixed;
+		top: 72px;
+	}
 `
 
 const ItemButton = styled.button`
@@ -44,23 +46,20 @@ function Nav(props){
 		let children = t.parentElement.children;
 		let arr = [];
 
-
 		for(let i=0;i < children.length; i++){
 			arr.push(children[i]);
 
 		}
-		arr.filter((e) => {
+		return arr.filter((e) => {
 			return e !== t;
 		})
 
 	}
-	console.log(NavActive);
-
+	
 	const handleClick = (e) => {
-		siblings(e.currentTarget.parentElement)
-		// siblings(e.currentTarget.parentElement).forEach(element => {
-		// 	element.classList.remove("active");
-		// });
+		siblings(e.currentTarget.parentElement).forEach(element => {
+			element.querySelector('button').classList.remove("active");
+		});
 		e.currentTarget.classList.add("active");
 		// if(NavActive){
 		// 	setNavActive(false)
