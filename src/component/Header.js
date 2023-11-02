@@ -5,6 +5,7 @@ import ImgTitle from "../image/image__header-title.png";
 import 'swiper/css';
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
+import ButtonShare from './ButtonShare';
 
 const EventHeader = styled.div`
 	position: relative;
@@ -64,22 +65,22 @@ const headerImgURL = [
 function Header(){
 	return(
 		<>
-			<EventHeader className="box__event--header">
+			<EventHeader>
 				<StyledSwiper 
 					loop={true}
 					speed= {800}
 					effect={'fade'}
 					autoplay={{delay: 3000}}
 					modules={[EffectFade, Autoplay]}
-					className="box__header-swiper"
 				>
 				{headerImgURL.map( (url, index) => <SwiperSlide key={index}><Image src={url}></Image></SwiperSlide>)}
 				</StyledSwiper>
-				<HeaderTxt className="box__header-visual">
+				<HeaderTxt>
 					<h1 className="for-a11y">익스피디아 입점기념</h1>
 					<p className="for-a11y">전 세계 호텔 최대 20만원 할인</p>
 					<p className="for-a11y">1월 2일 ~ 1월 15일</p>
 				</HeaderTxt>
+				<ButtonShare />
 			</EventHeader>
 		</>
 	)

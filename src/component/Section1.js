@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ImgSection1 from "../image/image__section1.png";
 
 const Box = styled.div`
-	background-color: #ffc70c;
+	background-color:#ffc70c;
 `
 
 const TitleArea = styled.div`
@@ -17,7 +17,7 @@ function Section1(){
 
 	return(
 		<>
-			<Box className="box__section1">
+			<Box>
 				<TitleArea>
 					<h2 className="for-a11y">전 세계 50만개 호텔을 특가에 만나요</h2>
 					<p className="for-a11y">Expedia 회원 혜택을 G마켓에서 누리세요!</p>

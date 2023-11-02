@@ -7,13 +7,16 @@ const Btn = styled.button`
 	margin: 0 auto;
 	background-position: -674px -226px;
 	cursor: pointer;
+	&:disabled{
+		background-position: -674px -144px;
+		pointer-events: none;
+	}
 `
-
 
 function CouponBtn(props){
 	return(
 		<>
-			<Btn type="button" className="sprite__expedia"><span className="for-a11y">쿠폰받기</span></Btn>
+			<Btn type="button" className="sprite__expedia" disabled={props.isDisabled}><span className="for-a11y">쿠폰받기</span></Btn>
 		</>
 	)
 }

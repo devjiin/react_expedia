@@ -69,9 +69,9 @@ function Nav(props){
 	}
 	return(
 		<div className="box__navigation--category">
-			<TabNav className="list">
+			<TabNav>
 				{navTit.map((item) => 
-					<li className={`list-item list-item${item.id}`} key={item.id}>
+					<li className={`list-item${item.id}`} key={item.id}>
 						<ItemButton className="button sprite__expedia" onClick={handleClick}>
 							<span className="for-a11y">{item.name}</span>
 						</ItemButton>
