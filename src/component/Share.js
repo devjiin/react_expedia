@@ -23,10 +23,11 @@ const Btn = styled.button`
 `
 
 const LayerShare = styled.div`
-	/* display: none; */
+	display: none;
 	position: fixed;
 	top: 50%;
 	left: 50%;
+	z-index:990;
 	width: 300px;
 	height: 296px;
 	margin-left: -150px;
@@ -78,47 +79,45 @@ const Dimmed = styled.div`
 	background-color: rgba(0,0,0,.4);
 `
 
-function ButtonShare(props){
+function Share(props){
 	const handleClick = (e) => {
-		
 	}
 	return(
 		<>
 		<BtnWrap>
-			<Btn className="sprite__expedia" aria-label="sns 공유하기"></Btn>
+			<Btn className="sprite__expedia" onClick={handleClick} aria-label="sns 공유하기"></Btn>
 		</BtnWrap>
-		<LayerShare>
-				<div className="layer__title">
-					<strong className="title">공유하기</strong>
-					<button type="button" className="btn_close"><span className="ico-share">닫기</span></button>
+		<LayerShare className="layer__share">
+			<div className="layer__title">
+				<strong className="title">공유하기</strong>
+				<button type="button" className="btn_close"><span className="ico-share">닫기</span></button>
+			</div>
+			<div className="layer_content">
+				<div className="share_content">
+					<ul className="list_share">
+						<li className="list_item kakao">
+							<Link to="/" className="ico-share">카카오톡</Link>
+						</li>
+						<li className="list_item facebook">
+							<Link to="/" className="ico-share">페이스북</Link>
+						</li>
+						<li className="list_item twiter">
+							<Link to="/" className="ico-share">트위터</Link>
+						</li>
+						<li className="list_item line">
+							<Link to="/" className="ico-share">라인</Link>
+						</li>
+					</ul>
 				</div>
-				<div className="layer_content">
-					<div className="share_content">
-						<ul className="list_share">
-							<li className="list_item kakao">
-								<Link className="ico-share">카카오톡</Link>
-							</li>
-							<li className="list_item facebook">
-								<Link className="ico-share">페이스북</Link>
-							</li>
-							<li className="list_item twiter">
-								<Link className="ico-share">트위터</Link>
-							</li>
-							<li className="list_item line">
-								<Link className="ico-share">라인</Link>
-							</li>
-						</ul>
-					</div>
-					<div className="url_copy">
-						<p className="url">https://event.gmarket.co.kr/event/2022/02/0201_stay/event.asp</p>
-						<Link id="btnCopy" className="btn_copy" data-clipboard-text="https://event.gmarket.co.kr/event/2022/02/0201_stay/event.asp">복사</Link>
-					</div>
-            	</div>
-				<Dimmed />
-			</LayerShare>
+				<div className="url_copy">
+					<p className="url">https://event.gmarket.co.kr/event/2022/02/0201_stay/event.asp</p>
+					<Link to="/" id="btnCopy" className="btn_copy" data-clipboard-text="https://event.gmarket.co.kr/event/2022/02/0201_stay/event.asp">복사</Link>
+				</div>
+			</div>
+			<Dimmed />
+		</LayerShare>
 		</>
-		
 	)
 }
 
-export default ButtonShare;
+export default Share;

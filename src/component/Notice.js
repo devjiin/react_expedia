@@ -41,17 +41,17 @@ const ListItem = styled.li`
 `
 
 function Notice(props){
-	const [toggle, setToggle] = useState(false);
+	const [isToggle, setIsToggle] = useState(false);
 
 	const listItem = props.list.map((item, idx) => <ListItem key={idx}>{item}</ListItem>);
 
 	function clickToggle(){
-		toggle ? setToggle(false) : setToggle(true);
+		setIsToggle(current => !current);
 	}
 	
 	return(
 		<>
-			<BtnNotice type="button" className={`sprite__expedia ${toggle && 'active'}`} onClick={clickToggle} aria-label="유의사항을 확인해주세요"></BtnNotice>
+			<BtnNotice type="button" className={`sprite__expedia ${isToggle && 'active'}`} onClick={clickToggle} aria-label="유의사항을 확인해주세요"></BtnNotice>
 			<ListNotice className="list__notice">{listItem}</ListNotice>
 		</>
 	)

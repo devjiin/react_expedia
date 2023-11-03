@@ -8,6 +8,7 @@ import GlobalStyles from './GlobalStyleds';
 import Section3 from './component/Section3';
 import Section4 from './component/Section4';
 import Section5 from './component/Section5';
+import Section7 from './component/Section7';
 
 
 const EventWapper = styled.div`
@@ -27,6 +28,7 @@ function App() {
 			<Section3 />
 			<Section4 />
 			<Section5 />
+			<Section7 />
 		</EventWapper>
 	</div>
 	);
