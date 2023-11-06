@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './component/Header';
 import Nav from './component/Nav';
 import Section1 from './component/Section1';
@@ -9,6 +8,8 @@ import Section3 from './component/Section3';
 import Section4 from './component/Section4';
 import Section5 from './component/Section5';
 import Section7 from './component/Section7';
+import Section8 from './component/Section8';
+import './App.css';
 
 
 const EventWapper = styled.div`
@@ -29,6 +30,7 @@ function App() {
 			<Section4 />
 			<Section5 />
 			<Section7 />
+			<Section8 />
 		</EventWapper>
 	</div>
 	);
