@@ -40,10 +40,10 @@ const ListItem = styled.li`
 	}
 `
 
-function Notice(props){
+function Notice(props : any){
 	const [isToggle, setIsToggle] = useState(false);
 
-	const listItem = props.list.map((item, idx) => <ListItem key={idx}>{item}</ListItem>);
+	const listItem = props.list.map((item : any , idx : number) => <ListItem key={idx}>{item}</ListItem>);
 
 	function clickToggle(){
 		setIsToggle(current => !current);

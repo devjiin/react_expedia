@@ -64,6 +64,10 @@ button{
 	cursor:pointer;
 }
 
+label{
+	cursor:pointer
+}
+
 .for-a11y{
 	position: absolute;
 	width: 1px;

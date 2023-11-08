@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface couponBtnPoprs {
+	isDisabled : boolean
+}
+
 const Btn = styled.button`
 	display: block;
 	width: 326px;
@@ -13,7 +17,7 @@ const Btn = styled.button`
 	}
 `
 
-function CouponBtn(props){
+function CouponBtn(props : couponBtnPoprs){
 	return(
 		<>
 			<Btn type="button" className="sprite__expedia" disabled={props.isDisabled}><span className="for-a11y">쿠폰받기</span></Btn>

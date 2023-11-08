@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const TabNav = styled.ul`
@@ -21,7 +20,7 @@ const ItemButton = styled.button`
 	height: 70px;
 `
 
-function Nav(props){
+function Nav(){
 	const navTit = [{
 		id: 1,
 		name: '할인혜택',
@@ -42,7 +41,7 @@ function Nav(props){
 	
 	// const isActive = props.isActive;
 
-	const siblings = function(t){
+	const siblings = function(t : any){
 		let children = t.parentElement.children;
 		let arr = [];
 
@@ -56,7 +55,7 @@ function Nav(props){
 
 	}
 	
-	const handleClick = (e) => {
+	const handleClick = (e : React.MouseEvent<HTMLButtonElement>) => {
 		siblings(e.currentTarget.parentElement).forEach(element => {
 			element.querySelector('button').classList.remove("active");
 		});

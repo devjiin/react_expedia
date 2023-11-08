@@ -10,6 +10,7 @@ const ContentTitle = styled.h3`
 	letter-spacing: -0.5px;
 	color: #fff;
 	font-family: 'Gmarket Sans', sans-serif;
+	font-weight:bold;
 	.text__keyword{
 		color:#ffc70c
 	}
@@ -20,7 +21,7 @@ const ContentTab = styled.div`
 	justify-content: center;
 	margin-top: 26px;
 	& + .text__title {
-		margin-top:80px;
+		padding-top:80px;
 	}
 `
 
@@ -50,20 +51,11 @@ const BtnTab = styled.button`
 	}
 `
 
-const Desc = styled.p`
-	opacity: 0.6;
-	margin-top: 18px;
-	font-size: 20px;
-	letter-spacing: -0.5px;
-	color: #fff;
-	font-family: "Gmarket Sans";
-`
-
-function Tab(props){
+function Tab(){
 	const [currentIdx, setcurrentIdx] = useState(0);
 	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
 
-	const selectMenuHandler = (index) => {
+	const selectMenuHandler = (index : number) => {
 		setcurrentIdx(index);
 	}
 	return(
@@ -74,10 +66,6 @@ function Tab(props){
 			<ContentTab>
 				{menuArr.map((item, idx) => <BtnTab className={currentIdx === idx && 'active'} key={idx} onClick={() =>{selectMenuHandler(idx)}}><span className="text">{item}</span></BtnTab>)}
 			</ContentTab>
-			<ContentTitle className="text__title">
-				<strong className="text__keyword">{menuArr[currentIdx]}</strong>에서 어떤 여행을 하고 싶으세요?
-			</ContentTitle>
-			<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>
 		</ContentArea>
 	)
 }

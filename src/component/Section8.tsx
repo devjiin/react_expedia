@@ -20,9 +20,6 @@ const Anchor = styled.a`
 	height: 84px;
 	background-position: -580px -308px;
 `
-const Image = styled.img`
-	width:100%;
-`
 
 function Section8(){
 	return(

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import ImgSection5 from "../image/image__section5.png";
 import Tab from "./Tab";
+import RadioArea from "./RadioArea";
+import HotelItems from "./HotelItems";
 
 const Box = styled.div`
 	background:#222;
@@ -27,6 +29,8 @@ function Section5(){
 				</ul>
 			</TitleArea>
 			<Tab />
+			<RadioArea />
+			<HotelItems />
 		</Box>
 	)
 }

@@ -5,7 +5,7 @@ import ImgTitle from "../image/image__header-title.png";
 import 'swiper/css';
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
-import Share from './Share';
+// import Share from './Share';
 
 const EventHeader = styled.div`
 	position: relative;
@@ -80,7 +80,7 @@ function Header(){
 					<p className="for-a11y">전 세계 호텔 최대 20만원 할인</p>
 					<p className="for-a11y">1월 2일 ~ 1월 15일</p>
 				</HeaderTxt>
-				<Share />
+				{/* <Share /> */}
 			</EventHeader>
 		</>
 	)
