@@ -79,8 +79,8 @@ const Dimmed = styled.div`
 	background-color: rgba(0,0,0,.4);
 `
 
-function Share(props){
-	const handleClick = (e) => {
+function Share(){
+	const handleClick = (e : React.MouseEvent<HTMLButtonElement>) => {
 	}
 	return(
 		<>

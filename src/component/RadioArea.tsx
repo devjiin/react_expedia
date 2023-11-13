@@ -79,12 +79,12 @@ function RadioArea(props){
 	return(
 		<>
 			<ContentTitle className="text__title">
-				<strong className="text__keyword">{menuArr[currentIdx]}</strong>에서 어떤 여행을 하고 싶으세요?
-				</ContentTitle>
-				<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>
+				<strong className="text__keyword"></strong>에서 어떤 여행을 하고 싶으세요?
+			</ContentTitle>
+			<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>
 			<List className="list__radio">
 				{radioTxtArr.map((item, idx) =>
-					<li className="list-item">
+					<li className="list-item" key={idx}>
 						<Label htmlFor={`radio${idx + 1}`}>
 							<Input type="radio" id={`radio${idx + 1}`} name="1" className="sprite__expedia" />
 							<InputTxt>{item}</InputTxt>

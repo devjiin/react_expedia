@@ -14,7 +14,7 @@ const Title = styled.h3`
 	}
 `
 
-function HotelItems(props){
+function HotelItems(){
 	return(
 		<>
 			<Title id="anchor_theme">당신이 좋아할 <strong className="text__keyword">하와이</strong> 호텔을 찾았어요!</Title>

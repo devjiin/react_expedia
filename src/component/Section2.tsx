@@ -36,7 +36,7 @@ function Section2(){
 					<li>10% 스마일캐시, 최대 10만 스마일캐시 지급 (할인 쿠폰 사용 불가 호텔 결제 시)</li>
 				</ul>
 			</TitleArea>
-			<CouponBtn isDisabled list={txtArr}/>
+			<CouponBtn isDisabled/>
 			<Notice list={txtArr}/>
 		</Box>
 	)

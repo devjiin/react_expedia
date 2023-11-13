@@ -16,7 +16,17 @@ const TitleArea = styled.div`
 	background:url(${ImgSection5}) no-repeat 0 0/contain;
 `
 
+const ContentArea = styled.div`
+	margin-top: 60px;
+	text-align: center;
+`
+
+interface IProps {
+	country: any;
+}
+
 function Section5(){
+	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
 	return(
 		<Box>
 			<TitleArea>
@@ -28,9 +38,11 @@ function Section5(){
 					<li>10% 스마일캐시, 최대 10만 스마일캐시 지급 (할인 쿠폰 사용 불가 호텔 결제 시)</li>
 				</ul>
 			</TitleArea>
-			<Tab />
-			<RadioArea />
-			<HotelItems />
+			<ContentArea>
+				<Tab country={menuArr}/>
+				<RadioArea />
+				<HotelItems />
+			</ContentArea>
 		</Box>
 	)
 }

@@ -1,10 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
 
-const ContentArea = styled.div`
-	margin-top: 60px;
-	text-align: center;
-`
 const ContentTitle = styled.h3`
 	font-size: 30px;
 	letter-spacing: -0.5px;
@@ -53,20 +49,20 @@ const BtnTab = styled.button`
 
 function Tab(){
 	const [currentIdx, setcurrentIdx] = useState(0);
-	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
+	
 
 	const selectMenuHandler = (index : number) => {
 		setcurrentIdx(index);
 	}
 	return(
-		<ContentArea>
+		<>
 			<ContentTitle>
 				<strong className="text__keyword">{menuArr[currentIdx]}</strong>를 선택하셨네요
 			</ContentTitle>
 			<ContentTab>
-				{menuArr.map((item, idx) => <BtnTab className={currentIdx === idx && 'active'} key={idx} onClick={() =>{selectMenuHandler(idx)}}><span className="text">{item}</span></BtnTab>)}
+				{menuArr.map((item, idx) => <BtnTab key={idx} onClick={() =>{selectMenuHandler(idx)}}><span className="text">{item}</span></BtnTab>)}
 			</ContentTab>
-		</ContentArea>
+		</>
 	)
 }
 
