@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import ImgSection5 from "../image/image__section5.png";
 import Tab from "./Tab";
-import RadioArea from "./RadioArea";
 import HotelItems from "./HotelItems";
 
 const Box = styled.div`
@@ -21,10 +20,6 @@ const ContentArea = styled.div`
 	text-align: center;
 `
 
-interface IProps {
-	country: any;
-}
-
 function Section5(){
 	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
 	return(
@@ -40,7 +35,6 @@ function Section5(){
 			</TitleArea>
 			<ContentArea>
 				<Tab country={menuArr}/>
-				<RadioArea />
 				<HotelItems />
 			</ContentArea>
 		</Box>

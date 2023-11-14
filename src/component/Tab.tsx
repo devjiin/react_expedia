@@ -1,5 +1,7 @@
 import { useState } from "react";
+import RadioArea from "./RadioArea";
 import styled from "styled-components";
+
 
 const ContentTitle = styled.h3`
 	font-size: 30px;
@@ -7,6 +9,7 @@ const ContentTitle = styled.h3`
 	color: #fff;
 	font-family: 'Gmarket Sans', sans-serif;
 	font-weight:bold;
+	line-height:35px;
 	.text__keyword{
 		color:#ffc70c
 	}
@@ -47,21 +50,26 @@ const BtnTab = styled.button`
 	}
 `
 
-function Tab(){
+interface ITabProps {
+	country:string[],
+}
+
+function Tab(props : ITabProps){
 	const [currentIdx, setcurrentIdx] = useState(0);
 	
-
-	const selectMenuHandler = (index : number) => {
+	const handleOnClick = (index : number) => {
 		setcurrentIdx(index);
 	}
+
 	return(
 		<>
 			<ContentTitle>
-				<strong className="text__keyword">{menuArr[currentIdx]}</strong>를 선택하셨네요
+				<strong className="text__keyword">{props.country[currentIdx]}</strong>를 선택하셨네요
 			</ContentTitle>
 			<ContentTab>
-				{menuArr.map((item, idx) => <BtnTab key={idx} onClick={() =>{selectMenuHandler(idx)}}><span className="text">{item}</span></BtnTab>)}
+				{props.country.map((item : any, idx : any) => <BtnTab type="button" className={`${idx === currentIdx ? 'active' : ''}`} key={idx} onClick={() =>{handleOnClick(idx)}}><span className="text">{item}</span></BtnTab>)}
 			</ContentTab>
+			<RadioArea name={props.country[currentIdx]} activeIdx={currentIdx}/>
 		</>
 	)
 }

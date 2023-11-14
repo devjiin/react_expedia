@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const ContentTitle = styled.h3`
@@ -7,6 +7,7 @@ const ContentTitle = styled.h3`
 	color: #fff;
 	font-family: 'Gmarket Sans', sans-serif;
 	font-weight:bold;
+	line-height:35px;
 	.text__keyword{
 		color:#ffc70c
 	}
@@ -67,26 +68,116 @@ const Desc = styled.p`
 	color: #fff;
 	font-family: "Gmarket Sans";
 `
+interface IRadioTxtArr {
+	id: number,
+	list : string[]
+}
 
-const radioTxtArr = [
-	'엔저에 부담없는 쇼핑을 즐기고 싶어요',
-	'뜨끈뜨끈한 료칸에서 힐링하고 싶어요',
-	'세계적인 테마파크에서 하루종일 놀래요',
-	'랜드마크 앞에서 인생샷 찍고 싶어요'
+const radioTxtArr : any = [
+	{
+		id: 1,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요',
+			'세계적인 테마파크에서 하루종일 놀래요',
+			'랜드마크 앞에서 인생샷 찍고 싶어요'
+		]
+	},
+	{
+		id: 2,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요222',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요222',
+			'세계적인 테마파크에서 하루종일 놀래요222',
+			'랜드마크 앞에서 인생샷 찍고 싶어요222'
+		]
+	},
+	{
+		id: 3,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요333',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요333',
+			'세계적인 테마파크에서 하루종일 놀래요333',
+			'랜드마크 앞에서 인생샷 찍고 싶어요333'
+		]
+	},
+	{
+		id: 4,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요444',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요444',
+			'세계적인 테마파크에서 하루종일 놀래요444',
+			'랜드마크 앞에서 인생샷 찍고 싶어요444'
+		]
+	},
+	{
+		id: 5,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요555',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요555',
+			'세계적인 테마파크에서 하루종일 놀래요555',
+			'랜드마크 앞에서 인생샷 찍고 싶어요555'
+		]
+	},
+	{
+		id: 6,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요666',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요666',
+			'세계적인 테마파크에서 하루종일 놀래요666',
+			'랜드마크 앞에서 인생샷 찍고 싶어요666'
+		]
+	},
+	{
+		id: 7,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요777',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요777',
+			'세계적인 테마파크에서 하루종일 놀래요777',
+			'랜드마크 앞에서 인생샷 찍고 싶어요777'
+		]
+	},
+	{
+		id: 8,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요888',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요888',
+			'세계적인 테마파크에서 하루종일 놀래요888',
+			'랜드마크 앞에서 인생샷 찍고 싶어요888'
+		]
+	},
+	{
+		id: 9,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요999',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요999',
+			'세계적인 테마파크에서 하루종일 놀래요999',
+			'랜드마크 앞에서 인생샷 찍고 싶어요999'
+		]
+	},
+	{
+		id: 10,
+		list : [
+			'엔저에 부담없는 쇼핑을 즐기고 싶어요101010',
+			'뜨끈뜨끈한 료칸에서 힐링하고 싶어요101010',
+			'세계적인 테마파크에서 하루종일 놀래요101010',
+			'랜드마크 앞에서 인생샷 찍고 싶어요101010'
+		]
+	}
 ]
 
-function RadioArea(props){
+function RadioArea(props : any){
 	return(
 		<>
 			<ContentTitle className="text__title">
-				<strong className="text__keyword"></strong>에서 어떤 여행을 하고 싶으세요?
+				<strong className="text__keyword">{props.name}</strong>에서 어떤 여행을 하고 싶으세요?
 			</ContentTitle>
 			<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>
 			<List className="list__radio">
-				{radioTxtArr.map((item, idx) =>
+				{radioTxtArr[props.activeIdx].list.map((item : any, idx : any) =>
 					<li className="list-item" key={idx}>
 						<Label htmlFor={`radio${idx + 1}`}>
-							<Input type="radio" id={`radio${idx + 1}`} name="1" className="sprite__expedia" />
+							<Input type="radio" id={`radio${idx + 1}`} name="inputRadio" defaultChecked={idx === 0} className="sprite__expedia" />
 							<InputTxt>{item}</InputTxt>
 						</Label>
 					</li>
