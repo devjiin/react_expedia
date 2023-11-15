@@ -167,6 +167,12 @@ const radioTxtArr : any = [
 ]
 
 function RadioArea(props : any){
+	const [isChecked, setIsChecked] = useState("radio1");
+	
+	const handleChange = (e : React.ChangeEvent<HTMLInputElement>) => {
+		setIsChecked(e.target.id)
+		// console.log(e.target.id, isChecked);
+	}
 	return(
 		<>
 			<ContentTitle className="text__title">
@@ -177,7 +183,7 @@ function RadioArea(props : any){
 				{radioTxtArr[props.activeIdx].list.map((item : any, idx : any) =>
 					<li className="list-item" key={idx}>
 						<Label htmlFor={`radio${idx + 1}`}>
-							<Input type="radio" id={`radio${idx + 1}`} name="inputRadio" defaultChecked={idx === 0} className="sprite__expedia" />
+							<Input type="radio" id={`radio${idx + 1}`} name="inputRadio" checked={isChecked === "radio1"} onChange={handleChange} className="sprite__expedia" />
 							<InputTxt>{item}</InputTxt>
 						</Label>
 					</li>
