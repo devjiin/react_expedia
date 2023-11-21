@@ -1,5 +1,6 @@
 import { useState } from "react";
 import RadioArea from "./RadioArea";
+import HotelItems from "./HotelItems";
 import styled from "styled-components";
 
 
@@ -70,6 +71,7 @@ function Tab(props : ITabProps){
 				{props.country.map((item : any, idx : any) => <BtnTab type="button" className={`${idx === currentIdx ? 'active' : ''}`} key={idx} onClick={() =>{handleOnClick(idx)}}><span className="text">{item}</span></BtnTab>)}
 			</ContentTab>
 			<RadioArea name={props.country[currentIdx]} activeIdx={currentIdx}/>
+			<HotelItems name={props.country[currentIdx]}/>
 		</>
 	)
 }

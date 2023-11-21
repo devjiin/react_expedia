@@ -35,7 +35,6 @@ function Section5(){
 			</TitleArea>
 			<ContentArea>
 				<Tab country={menuArr}/>
-				<HotelItems />
 			</ContentArea>
 		</Box>
 	)

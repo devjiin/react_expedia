@@ -1,0 +1,1010 @@
+{
+	"hotelData": [
+		{
+			"title" : "오사카",
+			"theme" : ["엔저에 부담없는 쇼핑을 즐기고 싶어요", "뜨끈뜨끈한 료칸에서 힐링하고 싶어요", "세계적인 테마파크에서 하루종일 놀래요","랜드마크 앞에서 인생샷 찍고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"크로스 호텔 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678051410",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_1_1.png"
+					},
+					{
+						"altText":"호텔 닛코 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678051997",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_1_2.png"
+					},
+					{
+						"altText":"스위소텔 난카이 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678051980",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_1_3.png"
+					},
+					{
+						"altText":"세인트 레지스 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678110855",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"가네요시 료칸",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678052081",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_2_1.png"
+					},
+					{
+						"altText":"토시하루 료칸",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678087319",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_2_2.png"
+					},
+					{
+						"altText":"토센 고쇼보",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678149760",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_2_3.png"
+					},
+					{
+						"altText":"세이코로 료칸",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678128229",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"리버 호텔 - 유니버셜 스튜디오 재팬",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678079330",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_3_1.png"
+					},
+					{
+						"altText":"오리엔탈 호텔 유니버셜시티",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678148210",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_3_2.png"
+					},
+					{
+						"altText":"더 파크 프런트 호텔 앳 유니버설 스튜디오 재팬",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678078693",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_3_3.png"
+					},
+					{
+						"altText":"하얏트 리젠시 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678065026",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"호텔 뉴 오타니 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678123664",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_4_1.png"
+					},
+					{
+						"altText":"KKR 호텔 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678121566",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_4_2.png"
+					},
+					{
+						"altText":"더 웨스틴 오사카",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678064165",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_4_3.png"
+					},
+					{
+						"altText":"인터컨티넨탈 오사카, IHG 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678108873",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel1_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "도쿄",
+			"theme" : ["엔저에 부담없는 쇼핑을 즐기고 싶어요", "뜨끈뜨끈한 료칸에서 힐링하고 싶어요", "세계적인 테마파크에서 하루종일 놀래요","랜드마크 앞에서 인생샷 찍고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"게이오 플라자 호텔 도쿄",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678145995",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_1_1.png"
+					},
+					{
+						"altText":"호텔 썬루트 플라자 신주쿠",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678104545",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_1_2.png"
+					},
+					{
+						"altText":"시퀀스 미야시타 파크",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678119451",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_1_3.png"
+					},
+					{
+						"altText":"하얏트 센트릭 긴자 도쿄",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678144563",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"온센 료칸 유엔 신주쿠",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678104155",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_2_1.png"
+					},
+					{
+						"altText":"차시츠 료칸 아사쿠사",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678118066",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_2_2.png"
+					},
+					{
+						"altText":"료칸 아사쿠사 시게츠",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678092018",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_2_3.png"
+					},
+					{
+						"altText":"류구죠 스파 호텔 미카즈키 후지미테이",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678106124",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"쉐라톤 그랜드 도쿄 베이 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678076827",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_3_1.png"
+					},
+					{
+						"altText":"힐튼 도쿄 베이",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678077775",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_3_2.png"
+					},
+					{
+						"altText":"도쿄 디즈니랜드 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678092597",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_3_3.png"
+					},
+					{
+						"altText":"하얏트 리젠시 도쿄 베이",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678092032",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"그랜드 하얏트 도쿄",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678104657",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_4_1.png"
+					},
+					{
+						"altText":"세룰리언 타워 도큐 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678142298",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_4_2.png"
+					},
+					{
+						"altText":"미마루 도쿄 신주쿠 웨스트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678119616",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_4_3.png"
+					},
+					{
+						"altText":"더 오쿠라 도쿄",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678130246",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel2_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "방콕",
+			"theme" : ["프리미엄 호텔에서 호캉스하고 싶어요", "하루종일 쇼핑만 하고 싶어요", "화려한 방콕의 밤문화를 즐기고 싶어요","랜드마크 앞에서 인생샷 찍고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"더 페닌슐라 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679811375",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_1_1.png"
+					},
+					{
+						"altText":"아난타라 시암 방콕호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679728628",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_1_2.png"
+					},
+					{
+						"altText":"시암 켐핀스키 호텔 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679667263",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_1_3.png"
+					},
+					{
+						"altText":"방콕 메리어트 마르키스 퀸즈 파크",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679804954",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"쉐라톤 그란데 수쿰윗",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679765896",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_2_1.png"
+					},
+					{
+						"altText":"그랜드 하얏트 에라완 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679704514",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_2_2.png"
+					},
+					{
+						"altText":"그란데 센터포인트 호텔 터미널 21",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679727024",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_2_3.png"
+					},
+					{
+						"altText":"센타라 워터게이트 파빌리온 호텔 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679788446",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"메리어트 방콕 수쿰윗",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679811604",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_3_1.png"
+					},
+					{
+						"altText":"서머셋 라마 9 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679743407",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_3_2.png"
+					},
+					{
+						"altText":"밀레니엄 힐튼 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679819183",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_3_3.png"
+					},
+					{
+						"altText":"반얀트리 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679765125",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"살라 라타나코신",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679705813",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_4_1.png"
+					},
+					{
+						"altText":"마루에이 가든호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679740111",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_4_2.png"
+					},
+					{
+						"altText":"센타라 그랜드 앳 센트럴월드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679782189",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_4_3.png"
+					},
+					{
+						"altText":"소 방콕",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679822989",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel3_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "다낭",
+			"theme" : ["완벽한 수영장에서 하루종일 놀고 싶어요", "골목길 산책하며 현지감성을 느끼고 싶어요", "오션뷰보며 호캉스하고 싶어요", "우리끼리 오붓하게 쉬고 싶어요", "새로운 경험을 해보고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"빈펄 리조트 스파 다낭",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680073800",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_1_1.png"
+					},
+					{
+						"altText":"하얏트 리젠시 다낭 리조트 앤 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680163062",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_1_2.png"
+					},
+					{
+						"altText":"쉐라톤 그랜드 다낭 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680149703",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_1_3.png"
+					},
+					{
+						"altText":"나만 리트리트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680121501",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"라 시에스타 호이 안 리조트 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680091290",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_2_1.png"
+					},
+					{
+						"altText":"멀버리 컬렉션 실크 마리나",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679836978",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_2_2.png"
+					},
+					{
+						"altText":"리틀 리버사이드. 어 럭셔리 호텔 & 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680116443",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_2_3.png"
+					},
+					{
+						"altText":"아난타라 호이 안 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680195647",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"인터컨티넨탈 다낭 썬 페닌술라 리조트, IHG 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679869811",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_3_1.png"
+					},
+					{
+						"altText":"하이안 비치 호텔 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680081682",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_3_2.png"
+					},
+					{
+						"altText":"포 포인츠 바이 쉐라톤 다낭",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680058102",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_3_3.png"
+					},
+					{
+						"altText":"더 코드 호텔 & 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680199801",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"실크 센세 호이 안 리버 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680141114",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_4_1.png"
+					},
+					{
+						"altText":"푸라마 빌라스 다낭",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680199972",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_4_2.png"
+					},
+					{
+						"altText":"프리미어 빌리지 다낭 리조트 매니지드 바이 아코르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680168117",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_4_3.png"
+					},
+					{
+						"altText":"티아 웰니스 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680142650",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_4_4.png"
+					}
+				],
+				[
+					{
+						"altText":"멜리아 다낭 비치 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680206528",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_5_1.png"
+					},
+					{
+						"altText":"푸라마 리조트 다낭",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680145500",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_5_2.png"
+					},
+					{
+						"altText":"그랜드 머큐어 다낭",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680089719",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_5_3.png"
+					},
+					{
+						"altText":"풀먼 다낭 비치 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680166527",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel4_5_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "발리",
+			"theme" : ["오션뷰보며 호캉스하고 싶어요", "정글뷰 숙소에서 호캉스하고 싶어요", "우리끼리 오붓하게 쉬고 싶어요", "새로운 경험을 해보고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"더 물리아 발리",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679007783",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_1_1.png"
+					},
+					{
+						"altText":"디 오베로이 비치 리조트 발리 - 스 서티피드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679025746",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_1_2.png"
+					},
+					{
+						"altText":"사마베 발리 스위트 빌라 - 스 서티피드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679057389",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_1_3.png"
+					},
+					{
+						"altText":"알릴라 스미냑",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679021249",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"더 카욘 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679021825",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_2_1.png"
+					},
+					{
+						"altText":"마야 우붓 리조트 스파 - 스 서티피드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679024842",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_2_2.png"
+					},
+					{
+						"altText":"비세로이 발리",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679041171",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_2_3.png"
+					},
+					{
+						"altText":"포시즌즈 리조트 발리 앳 사얀",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679030675",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"짐바란 비치 빌라 바이 나쿨라",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678989674",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_3_1.png"
+					},
+					{
+						"altText":"프라사나 빌라",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679023694",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_3_2.png"
+					},
+					{
+						"altText":"카유마니스 누사 두아 프라이빗 빌라 & 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679028715",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_3_3.png"
+					},
+					{
+						"altText":"빌라 스미냑 에스테이트 & 스파 - 바이 아스타달라",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678989041",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"파드마 리조트 우붓",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679064462",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_4_1.png"
+					},
+					{
+						"altText":"코모 우마 캉구 - 스 서티피드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678981425",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_4_2.png"
+					},
+					{
+						"altText":"봄보라 메데위 웨이브로지",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679024976",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_4_3.png"
+					},
+					{
+						"altText":"더 스톤 메리어트 오토그래프 컬렉션 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679046651",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel5_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "싱가포르",
+			"theme" : ["신나는 어트랙션 즐기기 '센토사섬'", "싱가포르 랜드마크가 집결된 '마리나베이'", "쇼핑에 최적화된 '오차드로드'", "현지 음식을 맛보기 '차이나타운'"],
+			"products" : [
+				[
+					{
+						"altText":"더 아웃포스트 호텔 센토사 바이 파 이스트 호스피탈리티",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679560471",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_1_1.png"
+					},
+					{
+						"altText":"W 싱가포르 - 센토사 코브(SG Clean)",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679559815",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_1_2.png"
+					},
+					{
+						"altText":"카펠라 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679630376",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_1_3.png"
+					},
+					{
+						"altText":"소피텔 싱가포르 센토사 리조트&스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679630094",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"더 풀러턴 호텔 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679630251",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_2_1.png"
+					},
+					{
+						"altText":"더 리츠칼튼 밀레니아",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679607236",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_2_2.png"
+					},
+					{
+						"altText":"만다린 오리엔탈 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679559886",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_2_3.png"
+					},
+					{
+						"altText":"팬 퍼시픽 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679607337",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"포 시즌스 호텔 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679607806",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_3_1.png"
+					},
+					{
+						"altText":"젠 싱가포르 오차드게이트웨이 바이 샹그릴라",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679596072",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_3_2.png"
+					},
+					{
+						"altText":"샹그릴라 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679662265",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_3_3.png"
+					},
+					{
+						"altText":"스위소텔 더 스탬퍼드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679593167",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"소피텔 싱가포르 시티 센터",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679607566",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_4_1.png"
+					},
+					{
+						"altText":"칼튼 시티 호텔 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679560203",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_4_2.png"
+					},
+					{
+						"altText":"애스콧 래플스 플레이스 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679560369",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_4_3.png"
+					},
+					{
+						"altText":"오아시아 호텔 다운타운 싱가포르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679654728",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel6_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "하와이",
+			"theme" : ["쇼핑과 맛집 탐방 즐기는 '호놀룰루'", "눈부신 대자연 속 '하와이 아일랜드'", "장엄한 자연을 오롯이 느끼는 '마우이'", "다양한 레포츠를 즐기는 '카우아이'"],
+			"products" : [
+				[
+					{
+						"altText":"쉐라톤 와이키키",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680116946",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_1_1.png"
+					},
+					{
+						"altText":"하얏트 리젠시 와이키키 비치 리조트 & 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680218189",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_1_2.png"
+					},
+					{
+						"altText":"카할라 호텔 & 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680030445",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_1_3.png"
+					},
+					{
+						"altText":"프린스 와이키키",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680231276",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"코트야드 바이 메리어트 킹 카메하메하 코나 비치 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680016620",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_2_1.png"
+					},
+					{
+						"altText":"더 웨스틴 하푸나 비치 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680057587",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_2_2.png"
+					},
+					{
+						"altText":"힐튼 그랜드 베케이션스 클럽 킹스 랜드 와이콜로아",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679947163",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_2_3.png"
+					},
+					{
+						"altText":"힐튼 와이콜로아 빌리지",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680105623",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"몽타주 카팔루아 베이",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679879270",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_3_1.png"
+					},
+					{
+						"altText":"더 리츠-칼튼 마우이 카팔루아",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679969850",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_3_2.png"
+					},
+					{
+						"altText":"안다즈 마우이 앳 와일레아 리조트 - 컨셉트 바이 하얏트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680150846",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_3_3.png"
+					},
+					{
+						"altText":"하얏트 리젠시 마우이 리조트 & 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679972652",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"그랜드 하얏트 카우아이 리조트 앤드 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679923020",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_4_1.png"
+					},
+					{
+						"altText":"카와이 쇼어스 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680112220",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_4_2.png"
+					},
+					{
+						"altText":"코아케아 호텔 & 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680027919",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_4_3.png"
+					},
+					{
+						"altText":"콜로아 랜딩 리조트 앳 포이푸, 오토그래프 컬렉션",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680196202",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel7_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "라스베가스",
+			"theme" : ["카지노, 쇼, 클럽을 즐기고 싶어요", "라스베가스 시티뷰 보며 호캉스 할래요", "완벽한 수영장에서 하루종일 놀고 싶어요", "경유지로 잠깐 머물게 되었어요"],
+			"products" : [
+				[
+					{
+						"altText":"더 미라지 호텔 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680037642",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_1_1.png"
+					},
+					{
+						"altText":"벨라지오호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680163527",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_1_2.png"
+					},
+					{
+						"altText":"윈 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680165213",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_1_3.png"
+					},
+					{
+						"altText":"MGM 그랜드 호텔 & 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680060366",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"사하라 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680178043",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_2_1.png"
+					},
+					{
+						"altText":"더 호텔 앳 만달레이 베이",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680109408",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_2_2.png"
+					},
+					{
+						"altText":"더 팜스 카지노 리조트",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680226185",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_2_3.png"
+					},
+					{
+						"altText":"앙코르 앳 윈 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680167156",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"아리아 리조트 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680114019",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_3_1.png"
+					},
+					{
+						"altText":"트럼프 인터내셔널 호텔 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680133391",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_3_2.png"
+					},
+					{
+						"altText":"만달레이 베이 리조트 앤드 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680033641",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_3_3.png"
+					},
+					{
+						"altText":"시저스 팰리스 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680077323",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"더 베네치안 리조트 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680190604",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_4_1.png"
+					},
+					{
+						"altText":"플래닛 할리우드 리조트 & 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680054134",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_4_2.png"
+					},
+					{
+						"altText":"더 코스모폴리탄 오브 라스베이거스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680180833",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_4_3.png"
+					},
+					{
+						"altText":"플라밍고 라스베이거스 호텔 & 카지노",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680234833",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel8_4_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "파리",
+			"theme" : ["거장의 미술 작품을 감상하고 싶어요", "에펠탑이 잘 보이는 숙소에서 호캉스할래요", "빈티지부터 명품까지 쇼핑을 즐기고 싶어요", "파리 감성 가득한 골목길 산책하고 싶어요","궁극의 미식을 경험하기 위해 왔어요"],
+			"products" : [
+				[
+					{
+						"altText":"Hôtel Château Voltaire",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678834596",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_1_1.png"
+					},
+					{
+						"altText":"호텔 몰리에르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678794397",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_1_2.png"
+					},
+					{
+						"altText":"로텔 푸제르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678780190",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_1_3.png"
+					},
+					{
+						"altText":"Hôtel Vinci Due & Spa",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678808910",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"레지덩스 샤를르 플로케",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678800200",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_2_1.png"
+					},
+					{
+						"altText":"풀먼 파리 타워 에펠",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678812167",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_2_2.png"
+					},
+					{
+						"altText":"머큐어 파리 상트르 투르 에펠",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678796062",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_2_3.png"
+					},
+					{
+						"altText":"르 데르비 알마",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678786101",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"라 빌라 오스만",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678806716",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_3_1.png"
+					},
+					{
+						"altText":"하얏트 리젠시 파리 에투알",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678805170",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_3_2.png"
+					},
+					{
+						"altText":"머큐어 파리 오페라 가르니에",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678805114",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_3_3.png"
+					},
+					{
+						"altText":"웨스트 엔드 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678809378",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"Hôtel Botaniste",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678779461",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_4_1.png"
+					},
+					{
+						"altText":"로텔 푸제르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678780190",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_4_2.png"
+					},
+					{
+						"altText":"시타딘 아파트호텔 생제르망 데 프레 파리",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678790794",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_4_3.png"
+					},
+					{
+						"altText":"호텔 뒤 트리앙글 도르",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678799412",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_4_4.png"
+					}
+				],
+				[
+					{
+						"altText":"호텔 브라이턴",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2680219953",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_5_1.png"
+					},
+					{
+						"altText":"르 버건디",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678804697",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_5_2.png"
+					},
+					{
+						"altText":"샹그릴라 파리",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678810094",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_5_3.png"
+					},
+					{
+						"altText":"호텔 플라자 아테네 토체스터 콜렉션",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2678796082",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel9_5_4.png"
+					}
+				]
+			]
+		},
+		{
+			"title" : "런던",
+			"theme" : ["거장의 미술 작품을 감상하고 싶어요", "런던 브릿지를 보며 호캉스하고 싶어요", "빈티지부터 명품까지 쇼핑을 즐기고 싶어요", "런던 감성 가득한 골목길 산책하고 싶어요","프리미어리그 축구 경기 직관하고 싶어요"],
+			"products" : [
+				[
+					{
+						"altText":"더 스탠다드 런던",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679776004",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_1_1.png"
+					},
+					{
+						"altText":"맥도날드 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679916126",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_1_2.png"
+					},
+					{
+						"altText":"티슬 홀본",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679853365",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_1_3.png"
+					},
+					{
+						"altText":"페이지8, 페이지 호텔스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679897236",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_1_4.png"
+					}
+				],
+				[
+					{
+						"altText":"샹그릴라 더 샤드, 런던",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679837822",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_2_1.png"
+					},
+					{
+						"altText":"더 타워 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679942092",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_2_2.png"
+					},
+					{
+						"altText":"체발 쓰리 키스",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679870370",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_2_3.png"
+					},
+					{
+						"altText":"시티즌M 타워 오브 런던",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679961595",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_2_4.png"
+					}
+				],
+				[
+					{
+						"altText":"돌셋 셰퍼드 부시",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679878253",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_3_1.png"
+					},
+					{
+						"altText":"케이 웨스트 호텔 앤드 스파",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679841608",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_3_2.png"
+					},
+					{
+						"altText":"스타 호텔 B&B",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679856192",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_3_3.png"
+					},
+					{
+						"altText":"켄싱턴 프라임 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679778326",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_3_4.png"
+					}
+				],
+				[
+					{
+						"altText":"더 래슬릿 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679885384",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_4_1.png"
+					},
+					{
+						"altText":"더 포르토벨로 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679889355",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_4_2.png"
+					},
+					{
+						"altText":"더 헤이든 펍",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679957782",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_4_3.png"
+					},
+					{
+						"altText":"The Abbey",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679895462",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_4_4.png"
+					}
+				],
+				[
+					{
+						"altText":"하얏트 하우스 런던 스트랫퍼드",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679787582",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_5_1.png"
+					},
+					{
+						"altText":"홀리데이 인 익스프레스 런던 - 스트랫퍼드, IHG 호텔",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679864030",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_5_2.png"
+					},
+					{
+						"altText":"더 스트랫퍼드 호텔 런던",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679825298",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_5_3.png"
+					},
+					{
+						"altText":"더 갠트리 런던, 큐리오 컬렉션 바이 힐튼",
+						"landUrl":"https://gtour.gmarket.co.kr/TourV2/Item?goodsCode=2679875514",
+						"imgUrl":"http://image.gmarket.co.kr/Gmkt_Event/2023/01/0101_expedia/hotel/image__hotel10_5_4.png"
+					}
+				]
+			]
+		}
+	]
+}

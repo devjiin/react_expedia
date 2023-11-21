@@ -171,7 +171,6 @@ function RadioArea(props : any){
 	
 	const handleChange = (e : React.ChangeEvent<HTMLInputElement>) => {
 		setIsChecked(e.target.id)
-		// console.log(e.target.id, isChecked);
 	}
 	return(
 		<>
