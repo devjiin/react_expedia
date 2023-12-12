@@ -1,7 +1,7 @@
 import objectData from "./data/data.json";
 import styled from "styled-components";
 
-console.log(objectData);
+console.log(objectData.hotelData);
 
 const Title = styled.h3`
 	padding-top:120px;
@@ -36,7 +36,7 @@ function HotelItems(props : any){
 				{
 					objectData.hotelData.map((item : any) =>
 						<ListItem>
-							console.log(item);
+							{/* <img src={item[0].prode}/> */}
 						</ListItem>
 					)
 				}

@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { debounce } from "lodash";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const TabNav = styled.ul`
@@ -20,6 +21,22 @@ const ItemButton = styled.button`
 	height: 70px;
 `
 
+const useScroll = () => {
+	const [scrollY, setScrollY] = useState<number>(0);
+
+	const handleScroll = () => {
+		setScrollY(window.scrollY);
+	}
+
+	const delay = 15;
+
+	useEffect(() => {
+		window.addEventListener('scroll', debounce(handleScroll, delay));
+		return () => window.removeEventListener('scroll', handleScroll);
+	}, []);
+	return {scrollY};
+}
+
 function Nav(){
 	const navTit = [{
 		id: 1,
@@ -37,9 +54,8 @@ function Nav(){
 		id: 4,
 		name: '검색 가이드',
 	}];
-	let [NavActive, setNavActive] = useState(false);
-	
-	// const isActive = props.isActive;
+
+	const { scrollY } = useScroll();
 
 	const siblings = function(t : any){
 		let children = t.parentElement.children;
@@ -56,19 +72,16 @@ function Nav(){
 	}
 	
 	const handleClick = (e : React.MouseEvent<HTMLButtonElement>) => {
+		console.log(scrollY);
 		siblings(e.currentTarget.parentElement).forEach(element => {
 			element.querySelector('button').classList.remove("active");
 		});
 		e.currentTarget.classList.add("active");
-		// if(NavActive){
-		// 	setNavActive(false)
-		// }else{
-		// 	setNavActive(true)
-		// }
 	}
+	// const navOffset = document.querySelector('.box__navigation--category')?.offsetTop;
 	return(
 		<div className="box__navigation--category">
-			<TabNav>
+			<TabNav className={scrollY >= (595 - 71) ? `tab__navigation--fixed` : ''}>
 				{navTit.map((item) => 
 					<li className={`list-item${item.id}`} key={item.id}>
 						<ItemButton className="button sprite__expedia" onClick={handleClick}>
