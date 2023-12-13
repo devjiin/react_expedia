@@ -1,5 +1,3 @@
-import { debounce } from "lodash";
-import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const TabNav = styled.ul`
@@ -21,23 +19,7 @@ const ItemButton = styled.button`
 	height: 70px;
 `
 
-const useScroll = () => {
-	const [scrollY, setScrollY] = useState<number>(0);
-
-	const handleScroll = () => {
-		setScrollY(window.scrollY);
-	}
-
-	const delay = 15;
-
-	useEffect(() => {
-		window.addEventListener('scroll', debounce(handleScroll, delay));
-		return () => window.removeEventListener('scroll', handleScroll);
-	}, []);
-	return {scrollY};
-}
-
-function Nav(){
+function Nav(props:any){
 	const navTit = [{
 		id: 1,
 		name: '할인혜택',
@@ -55,7 +37,7 @@ function Nav(){
 		name: '검색 가이드',
 	}];
 
-	const { scrollY } = useScroll();
+	const { scrollY } = props.scrollY;
 
 	const siblings = function(t : any){
 		let children = t.parentElement.children;
@@ -71,20 +53,28 @@ function Nav(){
 
 	}
 	
-	const handleClick = (e : React.MouseEvent<HTMLButtonElement>) => {
-		console.log(scrollY);
+	const handleClick = (e : React.MouseEvent<HTMLButtonElement>, idx:number) => {
+		// console.log(scrollY);
+		if(idx === 1) idx = 4;
+		else if(idx === 2) idx = 5;
+		else if(idx === 3) idx = 6;
+		else idx = 0;
+
 		siblings(e.currentTarget.parentElement).forEach(element => {
 			element.querySelector('button').classList.remove("active");
 		});
 		e.currentTarget.classList.add("active");
+		
+		console.log(idx);
+		props.onMoveToElement(idx);
 	}
 	// const navOffset = document.querySelector('.box__navigation--category')?.offsetTop;
 	return(
 		<div className="box__navigation--category">
 			<TabNav className={scrollY >= (595 - 71) ? `tab__navigation--fixed` : ''}>
-				{navTit.map((item) => 
+				{navTit.map((item, idx) => 
 					<li className={`list-item${item.id}`} key={item.id}>
-						<ItemButton className="button sprite__expedia" onClick={handleClick}>
+						<ItemButton className="button sprite__expedia" onClick={(e)=>handleClick(e, idx)}>
 							<span className="for-a11y">{item.name}</span>
 						</ItemButton>
 					</li>

@@ -68,9 +68,9 @@ const headerImgURL = [
 	require('../image/image__slide2.png'),
 ]
 
-function Section7(){
+function Section7(props:any){
 	return(
-		<Box>
+		<Box ref={props.scrollRef}>
 			<TitleArea>
 				<h2 className="for-a11y">이렇게 검색하세요</h2>
 				<p className="for-a11y">취향에 딱 맞는 호텔을 쉽게 찾을 수 있어요</p>

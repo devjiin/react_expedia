@@ -13,10 +13,9 @@ const TitleArea = styled.div`
 	padding-bottom: 100px;
 `
 
-function Section1(){
-
+function Section1(props:any){
 	return(
-		<Box>
+		<Box ref={props.scrollRef}>
 			<TitleArea>
 				<h2 className="for-a11y">전 세계 50만개 호텔을 특가에 만나요</h2>
 				<p className="for-a11y">Expedia 회원 혜택을 G마켓에서 누리세요!</p>
