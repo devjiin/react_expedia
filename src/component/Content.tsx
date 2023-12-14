@@ -28,29 +28,31 @@ const useScroll = () => {
 
 const useRefScroll = () =>{
 	const scrollRef = useRef<HTMLDivElement>(null);
-	const onMoveToElement = (idx:number) => {
-		scrollRef.current?.scrollIntoView({behavior: 'smooth', block: 'start'});
+	const onMoveToElement = () => {
+		scrollRef.current?.scrollIntoView({behavior: 'smooth'});
 	};
-	console.log(scrollRef.current);
 	return {scrollRef, onMoveToElement};
 }
 
 
-
 function Content(){
-	const {scrollRef , onMoveToElement} = useRefScroll();
-	// const sec1Offset = scrollRef.current.offsetTop;
 	const scrollY = useScroll();
+	const nav = {
+		0: useRefScroll(),
+		1: useRefScroll(),
+		2: useRefScroll(),
+		3: useRefScroll(),
+	};
 	return(
 		<>
-			<Nav scrollY={scrollY} onMoveToElement={onMoveToElement} />
-			<Section1 scrollRef={scrollRef} />
+			<Nav scrollY={scrollY} toElement={nav} />
+			<Section1 scrollRef={nav[0].scrollRef} />
 			<Section2 />
 			<Section3 />
 			<Section4 />
-			<Section5 scrollRef={scrollRef} />
-			<Section6 scrollRef={scrollRef}/>
-			<Section7 />
+			<Section5 scrollRef={nav[1].scrollRef} />
+			<Section6 scrollRef={nav[2].scrollRef} />
+			<Section7 scrollRef={nav[3].scrollRef} />
 			<Section8 />
 		</>
 	)

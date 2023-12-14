@@ -38,7 +38,6 @@ function Nav(props:any){
 	}];
 
 	const { scrollY } = props.scrollY;
-
 	const siblings = function(t : any){
 		let children = t.parentElement.children;
 		let arr = [];
@@ -54,19 +53,11 @@ function Nav(props:any){
 	}
 	
 	const handleClick = (e : React.MouseEvent<HTMLButtonElement>, idx:number) => {
-		// console.log(scrollY);
-		if(idx === 1) idx = 4;
-		else if(idx === 2) idx = 5;
-		else if(idx === 3) idx = 6;
-		else idx = 0;
-
 		siblings(e.currentTarget.parentElement).forEach(element => {
 			element.querySelector('button').classList.remove("active");
 		});
 		e.currentTarget.classList.add("active");
-		
-		console.log(idx);
-		props.onMoveToElement(idx);
+		props.toElement[idx].onMoveToElement();
 	}
 	// const navOffset = document.querySelector('.box__navigation--category')?.offsetTop;
 	return(

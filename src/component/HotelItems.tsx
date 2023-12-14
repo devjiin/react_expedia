@@ -36,7 +36,9 @@ function HotelItems(props : any){
 				{
 					objectData.hotelData.map((item : any) =>
 						<ListItem>
-							{/* <img src={item[0].prode}/> */}
+							<li className="list-item">
+								{/* <img src={item[0].prode} /> */}
+							</li>
 						</ListItem>
 					)
 				}

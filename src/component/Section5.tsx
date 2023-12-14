@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import ImgSection5 from "../image/image__section5.png";
 import Tab from "./Tab";
-import HotelItems from "./HotelItems";
 
 const Box = styled.div`
 	background:#222;

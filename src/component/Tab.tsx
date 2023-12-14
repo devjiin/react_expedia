@@ -70,8 +70,8 @@ function Tab(props : ITabProps){
 			<ContentTab>
 				{props.country.map((item : any, idx : any) => <BtnTab type="button" className={`${idx === currentIdx ? 'active' : ''}`} key={idx} onClick={() =>{handleOnClick(idx)}}><span className="text">{item}</span></BtnTab>)}
 			</ContentTab>
-			<RadioArea name={props.country[currentIdx]} activeIdx={currentIdx}/>
-			<HotelItems name={props.country[currentIdx]}/>
+			<RadioArea name={props.country[currentIdx]} activeIdx={currentIdx} />
+			<HotelItems name={props.country[currentIdx]} />
 		</>
 	)
 }
