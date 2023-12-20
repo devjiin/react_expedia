@@ -60,7 +60,6 @@ function Nav(props:any){
 		e.currentTarget.classList.add("active");
 		props.toElement[idx].onMoveToElement();
 	}
-	// const navOffset = document.querySelector('.box__navigation--category')?.offsetTop;
 	return(
 		<div className="box__navigation--category">
 			<TabNav className={scrollY >= (595 - 71) ? `tab__navigation--fixed` : ''}>

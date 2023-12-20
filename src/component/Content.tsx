@@ -30,6 +30,7 @@ const useRefScroll = () =>{
 	const scrollRef = useRef<HTMLDivElement>(null);
 	const onMoveToElement = () => {
 		scrollRef.current?.scrollIntoView({behavior: 'smooth'});
+		// scrollRef.current?.scrollTo(100, 0);
 	};
 	return {scrollRef, onMoveToElement};
 }

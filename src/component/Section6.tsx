@@ -29,7 +29,7 @@ function Section6(props:any){
 				<p className="for-a11y">취향에 딱 맞는 호텔을 쉽게 찾을 수 있어요</p>
 			</TitleArea>
 			<ContentArea>
-				<Tab country={menuArr}/>
+				{/* <Tab country={menuArr}/> */}
 			</ContentArea>
 		</Box>
 	)

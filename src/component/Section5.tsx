@@ -1,6 +1,9 @@
+import { useState } from "react";
 import styled from "styled-components";
 import ImgSection5 from "../image/image__section5.png";
 import Tab from "./Tab";
+import RadioArea from "./RadioArea";
+import HotelItems from "./HotelItems";
 
 const Box = styled.div`
 	background:#222;
@@ -19,8 +22,26 @@ const ContentArea = styled.div`
 	text-align: center;
 `
 
+const ContentTitle = styled.h3`
+	font-size: 30px;
+	letter-spacing: -0.5px;
+	color: #fff;
+	font-family: 'Gmarket Sans', sans-serif;
+	font-weight:bold;
+	line-height:35px;
+	.text__keyword{
+		color:#ffc70c
+	}
+`
+
 function Section5(props:any){
 	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
+	const [currentIdx, setcurrentIdx] = useState(0);
+	
+	const handleOnClick = (idx : number) => {
+		console.log('click');
+		setcurrentIdx(idx);
+	}
 	return(
 		<Box ref={props.scrollRef}>
 			<TitleArea>
@@ -33,7 +54,12 @@ function Section5(props:any){
 				</ul>
 			</TitleArea>
 			<ContentArea>
-				<Tab country={menuArr}/>
+				<ContentTitle>
+					<strong className="text__keyword">{menuArr[currentIdx]}</strong>를 선택하셨네요
+				</ContentTitle>
+				<Tab country={menuArr} onClickEvent={handleOnClick} activeIdx={currentIdx} />
+				{/* <RadioArea name={menuArr[currentIdx]} activeIdx={currentIdx} /> */}
+				{/* <HotelItems name={menuArr[currentIdx]} /> */}
 			</ContentArea>
 		</Box>
 	)
