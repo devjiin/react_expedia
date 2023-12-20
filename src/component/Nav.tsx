@@ -13,7 +13,7 @@ const TabNav = styled.ul`
 	}
 `
 
-const ItemButton = styled.button`
+const ItemAnchor = styled.a`
 	display: block;
 	width: 240px;
 	height: 70px;
@@ -52,9 +52,10 @@ function Nav(props:any){
 
 	}
 	
-	const handleClick = (e : React.MouseEvent<HTMLButtonElement>, idx:number) => {
+	const handleClick = (e : React.MouseEvent<HTMLAnchorElement>, idx:number) => {
+		e.preventDefault();
 		siblings(e.currentTarget.parentElement).forEach(element => {
-			element.querySelector('button').classList.remove("active");
+			element.querySelector('a').classList.remove("active");
 		});
 		e.currentTarget.classList.add("active");
 		props.toElement[idx].onMoveToElement();
@@ -65,9 +66,9 @@ function Nav(props:any){
 			<TabNav className={scrollY >= (595 - 71) ? `tab__navigation--fixed` : ''}>
 				{navTit.map((item, idx) => 
 					<li className={`list-item${item.id}`} key={item.id}>
-						<ItemButton className="button sprite__expedia" onClick={(e)=>handleClick(e, idx)}>
+						<ItemAnchor href="" className="button sprite__expedia" onClick={(e)=>handleClick(e, idx)}>
 							<span className="for-a11y">{item.name}</span>
-						</ItemButton>
+						</ItemAnchor>
 					</li>
 				)}
 			</TabNav>
