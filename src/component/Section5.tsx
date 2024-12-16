@@ -4,6 +4,7 @@ import ImgSection5 from "../image/image__section5.png";
 import Tab from "./Tab";
 import RadioArea from "./RadioArea";
 import HotelItems from "./HotelItems";
+import dummyData from './data/data.json'
 
 const Box = styled.div`
 	background:#222;
@@ -35,13 +36,12 @@ const ContentTitle = styled.h3`
 `
 
 function Section5(props:any){
-	const menuArr = ['오사카', '도쿄', '방콕', '다낭', '발리', '싱가포르', '하와이', '라스베가스', '파리', '런던'];
 	const [currentIdx, setcurrentIdx] = useState(0);
 	
 	const handleOnClick = (idx : number) => {
-		console.log('click');
 		setcurrentIdx(idx);
 	}
+	const [radioIdx, setRadioIdx] = useState(0);
 	return(
 		<Box ref={props.scrollRef}>
 			<TitleArea>
@@ -55,11 +55,11 @@ function Section5(props:any){
 			</TitleArea>
 			<ContentArea>
 				<ContentTitle>
-					<strong className="text__keyword">{menuArr[currentIdx]}</strong>를 선택하셨네요
+					<strong className="text__keyword">{dummyData.tabCountry[currentIdx]}</strong>를 선택하셨네요
 				</ContentTitle>
-				<Tab country={menuArr} onClickEvent={handleOnClick} activeIdx={currentIdx} />
-				{/* <RadioArea name={menuArr[currentIdx]} activeIdx={currentIdx} /> */}
-				{/* <HotelItems name={menuArr[currentIdx]} /> */}
+				<Tab country={dummyData.tabCountry} onClickEvent={handleOnClick} activeIdx={currentIdx} />
+				<RadioArea name={dummyData.tabCountry[currentIdx]} activeIdx={currentIdx} setRadioIdx={setRadioIdx}/>
+				<HotelItems name={dummyData.tabCountry[currentIdx]} data={dummyData.hotelData[currentIdx]} radioIdx={radioIdx} />
 			</ContentArea>
 		</Box>
 	)

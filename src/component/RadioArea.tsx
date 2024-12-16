@@ -166,23 +166,24 @@ const radioTxtArr : any = [
 	}
 ]
 
-function RadioArea(props : any){
+function RadioArea({ name, activeIdx, setRadioIdx }: any){
 	const [isChecked, setIsChecked] = useState("radio1");
 	
-	const handleChange = (e : React.ChangeEvent<HTMLInputElement>) => {
-		setIsChecked(e.target.id)
+	const handleChange = (e : React.ChangeEvent<HTMLInputElement>, i:number) => {
+		setIsChecked(e.target.id);
+		setRadioIdx(i);
 	}
 	return(
 		<>
 			<ContentTitle className="text__title">
-				<strong className="text__keyword">{props.name}</strong>에서 어떤 여행을 하고 싶으세요?
+				<strong className="text__keyword">{name}</strong>에서 어떤 여행을 하고 싶으세요?
 			</ContentTitle>
 			<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>
 			<List className="list__radio">
-				{radioTxtArr[props.activeIdx].list.map((item : any, idx : any) =>
+				{radioTxtArr[activeIdx].list.map((item : any, idx : number) =>
 					<li className="list-item" key={idx}>
 						<Label htmlFor={`radio${idx + 1}`}>
-							<Input type="radio" id={`radio${idx + 1}`} name="inputRadio" checked={isChecked === "radio1"} onChange={handleChange} className="sprite__expedia" />
+							<Input type="radio" id={`radio${idx + 1}`} name="inputRadio" checked={isChecked === "radio1"} onChange={(e)=>handleChange(e,idx)} className="sprite__expedia" />
 							<InputTxt>{item}</InputTxt>
 						</Label>
 					</li>

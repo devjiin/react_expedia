@@ -37,16 +37,12 @@ const BtnTab = styled.button`
 
 interface ITabProps {
 	country:string[],
-	onClickEvent: any,
+	onClickEvent: (i:number)=> void,
 	activeIdx: number
 }
 
-function Tab(props : ITabProps){
+function Tab({country, onClickEvent, activeIdx}: ITabProps ){
 	// const [currentIdx, setcurrentIdx] = useState(0);
-	const country = props.country;
-	const onClickEvent = props.onClickEvent();
-	const activeIdx = props.activeIdx;
-
 	return(
 		<>
 			<ContentTab>

@@ -1,7 +1,4 @@
-import objectData from "./data/data.json";
 import styled from "styled-components";
-
-console.log(objectData.hotelData);
 
 const Title = styled.h3`
 	padding-top:120px;
@@ -16,30 +13,53 @@ const Title = styled.h3`
 	}
 `
 const ItemList = styled.ul`
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 20px;
 	width: 1200px;
 	margin: 50px auto 0;
 	font-size: 0;
 `
 
 const ListItem = styled.li`
-	display: inline-block;
 	width: 590px;
-	vertical-align: top;
 `
 
-function HotelItems(props : any){
+const Img = styled.img`
+	width:100%;
+`
 
+const Anchor = styled.a`
+	display: block;
+    width: 394px;
+    height: 80px;
+    margin: 32px auto 90px;
+    background-position: 0 -318px;
+`
+
+interface ItemCardProps {
+	name: string,
+	data : any,
+	radioIdx: number
+}
+
+function HotelItems({name, data, radioIdx}: ItemCardProps){
+	console.log(data.products)
 	return(
 		<>
-			<Title id="anchor_theme">당신이 좋아할 <strong className="text__keyword">{props.name}</strong> 호텔을 찾았어요!</Title>
+			<Title id="anchor_theme">당신이 좋아할 <strong className="text__keyword">{name}</strong> 호텔을 찾았어요!</Title>
 			<ItemList>
 				{
-					objectData.hotelData.map((item : any) =>
-						<ListItem>
-							<li className="list-item">
-								{/* <img src={item[0].prode} /> */}
-							</li>
+					data.products[radioIdx].map((item : any, idx:number) =>{
+						const {imgUrl, landUrl} = item || {};
+						return(
+
+						<ListItem className="list-item" key={idx}>
+								<Img src={imgUrl} className="image"/>
+								<Anchor href={landUrl} className="link sprite__expedia" target="_blank"><span className="for-a11y">구매하기</span></Anchor>
 						</ListItem>
+						)
+					}
 					)
 				}
 				
