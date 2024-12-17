@@ -44,7 +44,6 @@ interface ItemCardProps {
 }
 
 function HotelItems({name, data, radioIdx}: ItemCardProps){
-	console.log(data.products)
 	return(
 		<>
 			<Title id="anchor_theme">당신이 좋아할 <strong className="text__keyword">{name}</strong> 호텔을 찾았어요!</Title>
@@ -53,10 +52,9 @@ function HotelItems({name, data, radioIdx}: ItemCardProps){
 					data.products[radioIdx].map((item : any, idx:number) =>{
 						const {imgUrl, landUrl} = item || {};
 						return(
-
 						<ListItem className="list-item" key={idx}>
-								<Img src={imgUrl} className="image"/>
-								<Anchor href={landUrl} className="link sprite__expedia" target="_blank"><span className="for-a11y">구매하기</span></Anchor>
+							<Img src={imgUrl} className="image"/>
+							<Anchor href={landUrl} className="link sprite__expedia" target="_blank"><span className="for-a11y">구매하기</span></Anchor>
 						</ListItem>
 						)
 					}

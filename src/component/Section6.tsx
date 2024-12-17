@@ -1,9 +1,8 @@
+import { useState } from "react";
 import styled from "styled-components";
 import ImgSection6 from "../image/image__section6.png";
 import Tab from "./Tab";
-import dummyData from './data/data.json'
-import { useState } from "react";
-
+import dummyData from './data/data.json';
 
 const Box = styled.div`
 	background-color:#ffc70c;

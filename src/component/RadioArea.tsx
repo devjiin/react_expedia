@@ -169,13 +169,13 @@ const radioTxtArr : any = [
 function RadioArea({ name, activeIdx, setRadioIdx }: any){
 	const [isChecked, setIsChecked] = useState("radio1");
 	
-	const handleChange = (e : React.ChangeEvent<HTMLInputElement>, i:number) => {
+	const handleChange = (e : React.ChangeEvent<HTMLInputElement>, i : number) => {
 		setIsChecked(e.target.id);
 		setRadioIdx(i);
 	}
 	return(
 		<>
-			<ContentTitle className="text__title">
+			<ContentTitle id="anchor_city" className="text__title">
 				<strong className="text__keyword">{name}</strong>에서 어떤 여행을 하고 싶으세요?
 			</ContentTitle>
 			<Desc>테마에 맞는 호텔을 찾아드릴게요</Desc>

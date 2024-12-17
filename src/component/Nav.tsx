@@ -1,4 +1,7 @@
+import { useRef } from "react";
 import styled from "styled-components";
+import dummyData from "./data/data.json";
+import type { INavProps } from './Content';
 
 const TabNav = styled.ul`
 	display: flex;
@@ -19,25 +22,11 @@ const ItemAnchor = styled.a`
 	height: 70px;
 `
 
-function Nav(props:any){
-	const navTit = [{
-		id: 1,
-		name: '할인혜택',
-	},
-	{
-		id: 2,
-		name: '호텔 찾기',
-	},
-	{
-		id: 3,
-		name: '즐길거리',
-	},
-	{
-		id: 4,
-		name: '검색 가이드',
-	}];
-
-	const { scrollY } = props.scrollY;
+function Nav({scrollY, toElement}:INavProps){
+	const navRef = useRef<(HTMLAnchorElement | null)[]>([]);
+	const headerH = 595;
+	const navH = 71;
+	
 	const siblings = function(t : any){
 		let children = t.parentElement.children;
 		let arr = [];
@@ -58,15 +47,15 @@ function Nav(props:any){
 			element.querySelector('a').classList.remove("active");
 		});
 		e.currentTarget.classList.add("active");
-		props.toElement[idx].onMoveToElement();
+		toElement[idx].onMoveToElement();
 	}
 	return(
 		<div className="box__navigation--category">
-			<TabNav className={scrollY >= (595 - 71) ? `tab__navigation--fixed` : ''}>
-				{navTit.map((item, idx) => 
-					<li className={`list-item${item.id}`} key={item.id}>
-						<ItemAnchor href="" className="button sprite__expedia" onClick={(e)=>handleClick(e, idx)}>
-							<span className="for-a11y">{item.name}</span>
+			<TabNav className={scrollY >= (headerH - navH) ? `tab__navigation--fixed` : ''}>
+				{dummyData.tabNavigation.map((item, idx) => 
+					<li className={`list-item${idx+1}`} key={idx}>
+						<ItemAnchor ref={(el) => navRef.current[idx] = el} href="" className="button sprite__expedia" onClick={(e)=>handleClick(e, idx)}>
+							<span className="for-a11y">{item}</span>
 						</ItemAnchor>
 					</li>
 				)}

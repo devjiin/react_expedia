@@ -10,6 +10,12 @@ import Section6 from './Section6';
 import Section7 from './Section7';
 import Section8 from './Section8';
 
+export interface INavProps {
+	scrollY: any,
+	toElement:any,
+	
+}
+
 const useScroll = () => {
 	const [scrollY, setScrollY] = useState<number>(0);
 
@@ -34,7 +40,6 @@ const useRefScroll = () =>{
 	};
 	return {scrollRef, onMoveToElement};
 }
-
 
 function Content(){
 	const scrollY = useScroll();
